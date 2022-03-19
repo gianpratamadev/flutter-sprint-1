@@ -1,19 +1,16 @@
 import 'package:flutter/material.dart';
-import '02_firstApp.dart';
-import '03_text_widget.dart';
+import '10_animatedGesture.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstApp(),
+      home: AnimatedGestures(),
     );
   }
 }
