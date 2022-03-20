@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '10_animatedGesture.dart';
+import '02_firstApp.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AnimatedGestures(),
+      home: FirstApp(),
     );
   }
 }
